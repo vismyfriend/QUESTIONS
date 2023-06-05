@@ -20,12 +20,14 @@
     /* магия математики от Andrew - выровнили по середине width поделили на два */
 }
 .card_question {
-    top: 82px;
+    top: 45px;
     left: calc(50% - 111px);
     transform: rotate(185deg);
+    
 }
 .card_answer {
-    top: 417px;
+    display: none;
+    top: 310px;
     left: calc(50% - 111px);
 transform: rotate(351deg);
 }
@@ -34,7 +36,15 @@ transform: rotate(351deg);
     border-bottom: dashed 1px #000;
 }
 
-.card__top,
+.card__top {
+    display: none;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
 .card__bottom {
     display: none;
     height: 50%;
@@ -65,7 +75,7 @@ transform: rotate(351deg);
     animation: card-flip 0.4s ease forwards;
     background-image: none;
     background-color: white;
-
+    height: 350px;
     border-radius: 10px;
     box-shadow: 0 0 5px 0 #000;
     /* тени визуализация */
@@ -78,8 +88,9 @@ transform: rotate(351deg);
 }
 
 .deck {
-    width: 300px;
-    margin: 20px calc((100% - 300px) / 2);
+    width: 280px;
+
+    margin: 0 20px calc((100% - 300px) / 2);
     /* магия математики от Andrew - выровнили по середине */
 }
 
@@ -89,10 +100,12 @@ button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     color: #000;
+    
 
 }
 
 .ask {
+    display: none;
     background: linear-gradient(143.84deg, rgba(237, 193, 193, 0.008) 14.48%, rgba(254, 254, 254, 0.2) 49.03%, rgba(162, 40, 40, 0.2) 82.47%), #FA8181;
 }
 

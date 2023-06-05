@@ -102,78 +102,78 @@ const questions = [
         {					
         id	:	21	,		
         ru	:	"	(Обсудите роль планирования свадьбы и трудности, с которыми могут столкнуться пары в процессе подготовки.)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	Discuss the role of wedding planning and the challenges that couples may face during the process.	"	
         }	,				
         {					
         id	:	22	,		
         ru	:	"	(Как понятие свадебных расходов и планирования бюджета изменилось со временем?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	How has the concept of wedding expenses and budgeting changed over time?	"	
         }	,				
         {					
         id	:	23	,		
         ru	:	"	(Какие есть альтернативные идеи свадьбы или тренды, которые вам нравятся?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	What are some alternative wedding ideas or trends that you find appealing?	"	
         }	,				
         {					
         id	:	24	,		
         ru	:	"	(Обсудите значение свадебного наряда и культурное влияние на свадебную моду.)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	Discuss the significance of wedding attire and the cultural influences on bridal fashion.	"	
         }	,				
         {					
         id	:	25	,		
         ru	:	"	(Каковы ваши мысли о праздновании свадьбы в экзотических местах?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	What are your thoughts on the idea of destination weddings?	"	
         }	,				
         {					
         id	:	26	,		
         ru	:	"	(Как часто вы ходите в спортзал или занимаетесь физическими упражнениями?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	How often do you go to the gym or engage in physical exercise?	"	
         }	,				
         {					
         id	:	27	,		
         ru	:	"	(Каковы некоторые преимущества регулярных упражнений и поддержания физической активности?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	What are some benefits of regular exercise and staying physically active?	"	
         }	,				
         {					
         id	:	28	,		
         ru	:	"	(Обсудите значение разминки до и заминки после тренировки.)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	Discuss the importance of warming up before and cooling down after a workout.	"	
         }	,				
         {					
         id	:	29	,		
         ru	:	"	(Какие есть популярные тренды фитнеса или программы тренировок, которые вам интересны?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	What are some popular fitness trends or workout programs that you find interesting?	"	
         }	,				
         {					
         id	:	30	,		
         ru	:	"	(Обсудите роль питания и диеты в достижении фитнес-целей.)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	Discuss the role of nutrition and diet in achieving fitness goals.	"	
         }	,				
         {					
         id	:	31	,		
         ru	:	"	(Как вы поддерживаете мотивацию для регулярных тренировок?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	How do you stay motivated to exercise regularly?	"	
         }	,				
         {					
         id	:	32	,		
         ru	:	"	(Какие обычные проблемы сталкиваются люди, начинающие тренировочный режим, и как они могут их преодолеть?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	What are some common challenges people face when starting a workout routine, and how can they overcome them?	"	
         }	,				
         {					
         id	:	33	,		
         ru	:	"	(Обсудите преимущества групповых занятий или наличия партнера по тренировкам.)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	Discuss the benefits of group exercise classes or having a workout buddy.	"	
         }	,				
         {					
         id	:	34	,		
         ru	:	"	(Какие есть альтернативные способы поддерживать активность и физическую форму без похода в спортзал?)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
+        eng	:	"	What are some alternative ways to stay active and fit without going to the gym?	"	
         }	,				
         {					
         id	:	35	,		
         ru	:	"	(Обсудите значение отдыха и восстановления в фитнес-режиме.)	"	,
-        eng	:	"	What are some unique wedding customs or rituals from different cultures that you find interesting?	"	
-        }	,				
+        eng	:	"	Discuss the importance of rest and recovery in a fitness routine.	"	
+        }	,						
 ]
 const answers = [
     {
