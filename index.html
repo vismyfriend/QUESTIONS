@@ -1,68 +1,162 @@
+<!-- 0001 После создания файла index.html нажимаем ! и tab, чтобы автоматически сделалась разметка страницы -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
+    <!-- 0002 подключаем файл со стилями, для этого сперва создаем папку styles, в ней файл style.css , а потом вводим строку кода ниже: -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- 0003 ниже две строки это адаптация ширины экрана для девайсов -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 0005 fav icon - это путь к файлу картинки, которая будет рядом с названием открытой вкладки, создаем папку images и туда добавляем иконку -->
     <link rel="shortcut icon" type="image/jpg" href="./images/special logo square black and white.png"> 
-    <!-- fav icon -->
-    <title>vismyfriend</title>
+    <!-- 0004 здесь указываем как вкладка в браузере будет называться у пользователей -->
+    <title>Workbench</title>
 </head>
-
+<!-- 0005 дальше идет <body> тело сайта, сразу присваеваем ему класс, вписывая <body class="название класса>" -->
 <body class="body">
-    <main>
-
-        <div class="card_question card">
-            <div class="card__top">
-                <p class="card__value">what time do you usually swim?</p>
-            </div>
-            <div class="card__bottom">
-                <p class="card__hint">во сколько ты обычно плаваешь?</p>
-            </div>
-
-        </div>
-
+    <!-- 0006 дальше самая верхняя кнопка в заголовке сайта - присваиваем класс, можно было придать ей стили -->
+    <header class="header">
        
-        <img src="./images/cards.png" alt="deck of cards" class="deck">
+        </a>
+    </header>
+    <!-- 0009 после header создаем main (это вроде середины страницы) и присваиваем класс -->
+    <!-- 0010 ниже еще напишу про подключение скриптов - но тут продублирую, чтобы не забыть - они после Main подключаются внизу самом -->
+    <main class="main">
+       
+        <div class="box" id="box">
+            <div class="tilde" id="tilde">~</div>
+            <div class="one" id="one">1</div>
+            <div class="two" id="two">2</div>
+            <div class="three" id="three">3</div>
+            <div class="four" id="four">4</div>
+            <div class="five" id="five">5</div>
+            <div class="six" id="six">6</div>
+            <div class="seven" id="seven">7</div>
+            <div class="eight" id="eight">8</div>
+            <div class="nine" id="nine">9</div>
+            <div class="zero" id="zero">0</div>
+            <div class="minus" id="minus">-</div>
+            <div class="plus" id="plus">+</div>
+            <div class="back" id="back">BACK</div>
+            <div class="tab" id="tab">TAB</div>
+            <div class="qq" id="qq">Q</div>
+            <div class="ww" id="ww">W</div>
+            <div class="ee" id="ee">E</div>
+            <div class="rr" id="rr">R</div>
+            <div class="tt" id="tt">T</div>
+            <div class="yy" id="yy">Y</div>
+            <div class="uu" id="uu">U</div>
+            <div class="ii" id="ii">I</div>
+            <div class="oo" id="oo">O</div>
+            <div class="pp" id="pp">P</div>
+            <div class="lbrack" id="lbrack">[</div>
+            <div class="rbrack" id="rbrack">]</div>
+            <div class="bslash" id="bslash">\</div>
+            <div class="caps" id="caps">CAPS</div>
+            <div class="aa" id="aa">A</div>
+            <div class="ss" id="ss">S</div>
+            <div class="dd" id="dd">D</div>
+            <div class="ff" id="ff">F</div>
+            <div class="gg" id="gg">G</div>
+            <div class="hh" id="hh">H</div>
+            <div class="jj" id="jj">J</div>
+            <div class="kk" id="kk">K</div>
+            <div class="ll" id="ll">L</div>
+            <div class="semi" id="semi">;</div>
+            <div class="comma" id="comma">"</div>
+            <div class="enter" id="enter">ENTER</div>
+            <div class="lshift" id="lshift">SHIFT</div>
+            <div class="zz" id="zz">Z</div>
+            <div class="xx" id="xx">X</div>
+            <div class="cc" id="cc">C</div>
+            <div class="vv" id="vv">V</div>
+            <div class="bb" id="bb">B</div>
+            <div class="nn" id="nn">N</div>
+            <div class="mm" id="mm">M</div>
+            <div class="comma1" id="comma1">,</div>
+            <div class="period" id="period">.</div>
+            <div class="fslash" id="fslash">/</div>
+            <div class="rshift" id="rshift">SHIFT</div>
+            <div class="lcontrol" id="lcontrol">CTRL</div>
+            <div class="lwindow" id="lwindow">*</div>
+            <div class="lalt" id="lalt">ALT</div>
+            <div class="space" id="space">SPACE</div>
+            <div class="ralt" id="ralt">ALT</div>
+            <div class="option1" id="option1">%</div>
+            <div class="option2" id="option2">*</div>
+            <div class="rcontrol" id="rcontrol">CTRL</div>
+        </div>
+        <div class="info">USE YOUR KEYBOARD</div>
+        <audio id="buzzer1" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer2" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer3" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer4" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer5" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer6" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer7" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer8" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer9" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer10" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer11" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer12" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer13" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer14" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer15" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer16" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer17" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer18" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer19" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer20" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer21" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer22" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer23" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer24" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer25" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer26" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer27" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer28" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer29" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer30" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer31" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer32" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer33" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer34" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer35" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer36" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer37" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer38" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer39" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer40" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer41" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer42" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer43" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer44" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer45" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer46" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer47" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer48" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer49" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer50" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer51" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer52" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer53" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer54" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer55" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer56" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer57" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer58" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer59" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer60" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <audio id="buzzer61" src="https://tim-school.com/codepen/alpha-sound/sound.mp3" preload="auto"></audio>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+
+
         
-
-        <img src="./images/cards.png" alt="deck of cards" class="deck">
-        <div class="card card_answer">
-            <div class="card__top">
-                <p class="card__value">what time do you usually swim?</p>
-            </div>
-            <div class="card__bottom">
-                <p class="card__hint">во сколько ты обычно плаваешь?</p>
-            </div>
-
-        </div>
-        <div class="buttons-container">
-            <button class="ask"> deck 1</button>
-            <button class="check">Shuffle</button>
-            <button class="next">Next</button>
-
-        </div>
-
-
-        <!-- <div class="notebook"> -->
-            <!-- <h1 class="notebook__title">
-                It is my turn to...
-            </h1> -->
-            <!-- <ol class="notebook__list">
-                <li class="notebook__manual manual-1"> Ваша очередь задавать вопрос или отвечать на вопрос?</li>
-                <li class="notebook__manual manual-2"> Ask: Задайте каждому один и тот же вопрос: "Как часто вы + глагол, который будет на карточке"? Когда все по очереди ответили, выберете чей ответ кажется более правдивым. Тот человек будет задавать следующий вопрос</li>
-                <li class="notebook__manual manual-3"> Если вопрос задают вам, то нажмите “ANSWER” чтобы увидеть свой ответ.</li>
-
-            </ol> -->
-            <!-- <img src="./images/blue pen.png" alt="a pen" class="pen"> -->
-            <!-- <p class="notebook__hint"></p>
-        </div> -->
     </main>
-    <script src="./scripts/utils/ques-answ.js"></script>
-<script src="./scripts/app.js"></script>
-<!-- лучше подключать один скрип в другом - модули - потом переделаем -->
-</body>
+    <!-- 0010 подключаем скрипты - для этого сперва создаем папку scripts и в ней файл app.js  -->
+    <script type="module" src="./scripts/app.js"></script>
 
+</body>
 </html>
